@@ -3,9 +3,7 @@ import sys
 chess_board = {
     '1h': 'bking', '6c': 'wqueen',
     '2g': 'bbishop', '5h': 'bqueen', 
-    '3f': 'wking', '6c': 'wrook'}
-
-print(chess_board)    
+    '3f': 'wking'} 
 
 letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'}
 pieces = ['king', 'rook', 'bishop', 'queen', 'knight', 'pawn']
@@ -74,7 +72,4 @@ def check_validity():
 
     print('Valid Chess Board you have there😊')
 
-# check_validity()
-
-print(count_coordinates())
-# write a function that counts the coord used
+check_validity()
